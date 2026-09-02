@@ -1,3 +1,7 @@
+<?php
+
+namespace App\Enums;
+
 enum ExpenseType: string
 {
     case Travel = 'travel';
