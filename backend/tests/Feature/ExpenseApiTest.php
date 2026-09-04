@@ -1,3 +1,8 @@
+<?php
+
+use App\Models\Expense;
+use App\Models\User;
+
 it('lets an authenticated user create an expense', function () {
     $user = User::factory()->create();
 
